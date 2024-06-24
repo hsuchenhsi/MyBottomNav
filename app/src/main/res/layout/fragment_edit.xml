@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E9B2"
+    tools:context=".EditFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linLayout"
+        android:layout_width="408dp"
+        android:layout_height="181dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Name"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="TEL"
+            android:inputType="phone"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnChanges"
+            android:layout_width="77dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="704dp"
+            android:text="儲存"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

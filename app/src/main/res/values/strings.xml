@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyBottomNav</string>
+    <string name="menu_left">聯絡人</string>
+    <string name="menu_middle">新增</string>
+    <string name="menu_right"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
